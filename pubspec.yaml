@@ -1,0 +1,31 @@
+name: parkly
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie: ^2.2.0
+  http: ^0.13.6  # Downgraded to resolve dependency conflict
+  mapbox_gl: ^0.16.0
+  mapbox_gl_dart: 0.2.1
+  mapbox_gl_platform_interface: ^0.16.0
+  mapbox_gl_web: ^0.16.0
+  flutter_map: ^0.14.0
+  latlong2: ^0.8.1
+
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
